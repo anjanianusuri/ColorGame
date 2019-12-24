@@ -1,0 +1,56 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  background-color: black;
+  margin: 0;
+  font-family: "Calibri";
+}
+
+h1{
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  background: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0;
+}
+
+#container{
+  width: 40%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.square{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background: purple;
+  float: left;
+  margin: 1.66%
+}
+
+#stripe{
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.selected{
+  background-color: blue;
+}
+
+button{
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+}
